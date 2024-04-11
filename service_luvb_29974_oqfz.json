@@ -1,0 +1,41 @@
+grape
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+function addNumbers(a, b) { return a + b; }
+false / false
+const squareRoot = num => Math.sqrt(num);
+
+85,57,68,33,34,45,11,70,79,99,63,91,29,76,5,86,72,35,10,56,65,59,25,29,95,74,22,46,4,10,69,17,77,62,25,23,90,5,77,52,9,31,38,91,39,37,48,13,18,24,86,31,70,36,6,0,94,35,26,57,45,73,43,40,46,1,14,68,39,80,64,44,87,48,29,3,81,85,2,73,35,47,71,94,63,23,11 * 9
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+grape / 25
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+91 / 77
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+18 * banana
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const squareRoot = num => Math.sqrt(num);
+banana / apple
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+orange
+
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+console.log(getRandomString());
+88,59,27,71,21,84,20,32,75,87,15,18,12,71,69,74,29,91,54,71,47,50,91,70,96,63,6,78,80,21,46,86,98,30,41,90,75,95,28,27,85,83,71,66,82,7,68,22,65,44,44,86,46,19,44,94,43,93,47,5,30,39,41,73,97,85,82,6,45,1,2,22,49,57,29,53,22,60,19,10,13,21,57,44,68,53,47,89,52,68,75,16,70,9,60,14,74 * 26
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+false / 13,10,97,33,34,88,75,70,12,58,43,77,32,86,26,67,31,1,39,10,66,53,4,2,66,8,5,52,38,22,73,12,21,86,85,60,73,26,55,30,26,66,39,8,83,20,23,54,76,33,15,35,36,52,26,75,93,46,86,57,24,63,47,6
+const reverseString = str => str.split("").reverse().join("");
